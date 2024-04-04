@@ -1,0 +1,17 @@
+* ctrol + shift + <  -----> se comenta una linea en especifico
+* ctrol + s  ----> se guarda un archivo
+* ctrol + g -----> Nos manda a una linea en especifico que nosotros eligamos
+* shift + alt + (flechita hacia abajo o arriba) ----> se copia alguna linea
+* ctrol + z ----> deshacer cambios
+* ctrol + x ----> cortar algun texto para pegarlo en otro lado con ctrol + v 
+* alt + (flechita hacia abajo o arriba) ----> movemos una linea cualquiera
+* ctrol + o ----> para abrir un archivo en VS code
+* ctrol + F -----> sirve para buscar algo en un texto o remplzar alguna palabra por otra en este mismo, es basicamente la seccion de SERCH
+* ctrol + shift + N ----> nos abre una ventana nueva de VS code
+* ctrol + alt + (flechita hacia abajo o arriba) ---> nos permite escribir en muchas lineas a la vez
+* seleccionamos alguna palabra + ctrol + shift + l ----> nos permite remplzar una palabra por otra en todos los lugares donde se encuentre
+* ctrol + shift + p ----> abrimos el menu de Settings de VScode
+* ctrol + c ----> copiar algo
+* ctrol + v -----> pegar algo 
+* shift + flechitas ----> seleccionar algo
+* ctrol + a ----> selecciona todo el texto
