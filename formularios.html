@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>formularios</title>
+    </head>
+    <body>
+        <h1>FORMS</h1>
+        <p>Veremos lo que son los formularios, estos se basan en la solicitud y respuesta con el servidor y el cliente, sirven para solicitarle o pedirle informacion al usuario, es decir que estos nos den informacion sobre su contacto, telefono, nombre, etc. veremos los tipos de input es decir la casillita de marcado, o para agregar texto etc.
+        </p>
+        <h2>Para ello se utiliza la etiqueta form, esta es una etiqueta de bloque que es donde se contendra el formulario, y luego dentro de ella utilizaremos etiquetas input, en este caso etiquetas con el tipo input type="y elegiremos el tipo de input"</h2>
+        <form>
+            <p>input type="text" es el mas comun</p>
+            <input type="text" required placeholder="Escribe tu Nombre">
+            <p>tambien input type="email que a diferencia del tipo text este no nos permitira enviar si no tiene formato de email</p>
+            <input type="email">
+            <p>contraseñas</p>
+            <input type="password">
+            <p>colores</p>
+            <input type="color">
+            <p>checkbox, es por ejemplo aceptas los terminos y condiciones?</p>
+            <input type="checkbox">
+            <p>confirmacion o submit, una vez que lo precionamos esta informacion debera ser mandada a algun lado ya sea una base de datos o algun lugar para poder procesar esos datos</p>
+            <input type="submit" value="mandar formulario">
+            <p>tambien tenemos el input type="radio" que lo que hace es permitirnos a comparacion del checkbox elegir entere varias opciones</p>
+            <input type="radio">
+            <input type="radio">
+            <input type="radio">
+            <p>el tipo file que nos permite selecionar un archivo</p>
+            <input type="file">
+            <p>tipo date</p>
+            <input type="date">
+            <h2>Hay 4 atributos importantes en los input estos son:</h2>
+            <ul>
+                <li><b>required</b> es un atriubto de funcionalidad este lo que hace es obligar al usuario a escribir algo, por ejemplo si ponemos input type="text" required , esto nos pedira obligatoriamente que escribamos algo</li>
+                <li><b>name=""</b> este es como un idetificado de los inputs, es de configuracion interna para el desarrollador, le sirve al servidor para saber de que campo estamos hablando es como un identificador para cuando le enviemos info al servidor ya sepa de que se trata, por ejemplo input type="text" name="username" , entoces el servidor ya sabra que se debe verificar el campo USERNAME </li>
+                <li>este es un atributo visual y es el <b>placeholder=""</b> es mostrarnos un pequeño texto cuando el usuario empieza a escribir</li>
+                <li><b>value</b> esto es lo que va a recibir el servidor, es decir lo que nosotros pongamos en el input se almacenara en este atributo, por ejemplo tenemos input type="text" value="asdasd" lo que nosotros pongamos en el input o fomulario nos lo cargara en donde dice value="asdasd"</li>
+                <li>tambien tenemos el <b>minlenght="1,2,3,etc..."</b> que es basicamente un rango minimo para poner en un campo de tipo texto, esto depende mucho del caso</li>
+            </ul>
+        </form>
+
+    </body>
+</html>
