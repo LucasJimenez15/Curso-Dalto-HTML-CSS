@@ -1,0 +1,44 @@
+* ctrol + shift + <  -----> se comenta una linea en especifico
+* ctrol + s  ----> se guarda un archivo
+* ctrol + g -----> Nos manda a una linea en especifico que nosotros eligamos
+* shift + alt + (flechita hacia abajo o arriba) ----> se copia alguna linea
+* ctrol + z ----> deshacer cambios
+* ctrol + x ----> cortar algun texto para pegarlo en otro lado con ctrol + v 
+* alt + (flechita hacia abajo o arriba) ----> movemos una linea cualquiera
+* ctrol + o ----> para abrir un archivo en VS code
+* ctrol + F -----> sirve para buscar algo en un texto o remplzar alguna palabra por otra en este mismo, es basicamente la seccion de SERCH
+* ctrol + shift + N ----> nos abre una ventana nueva de VS code
+* ctrol + alt + (flechita hacia abajo o arriba) ---> nos permite escribir en muchas lineas a la vez
+* seleccionamos alguna palabra + ctrol + shift + l ----> nos permite remplzar una palabra por otra en todos los lugares donde se encuentre
+* ctrol + shift + p ----> abrimos el menu de Settings de VScode
+* ctrol + c ----> copiar algo
+* ctrol + v -----> pegar algo 
+* shift + flechitas ----> seleccionar algo
+* ctrol + a ----> selecciona todo el texto
+
+
+EMMETS
+Cuando nosotros escribimos alguna etiqueta de html o css en VScode nos saltara el emmets que se refiere a dicha etiqueta
+y nos la autocompletaria con el elemento html o css que estamos buscando, por ejemplo si nosotros escribimos la letra a y damos enter 
+automaticamente activamos el emmet correspondiente a la etiqueta <a></a> y no nos haria falta escribir todo.
+Un uso muy comun de los emmets es:
+
+*Para usuarlo cuando queramos poner por ejemplo muchos <li></li> en una lista ya sea ordenada<ol> o desordenada<ul> utilizamos el emmet
+
+-li*(cantidad de li's) y dariamos enter en este caso se autocompleta con la cantidad que queramos
+-podemos tambien usar un li*(cantidad de li's)>a para que dentro de los li se autocomplete con links a
+-tambien podemos hacer todo junto poniendo ul>li*2>a  o  tambien por ejemplo ol>li*5>a
+
+*Podemos tambien hacer que cada a o li este asociado a una clase, podemos tambien hacer una estructura semanticamente correcta
+de html con una sola instruccion, esto lo hacemos de la siguiente manera
+
+-para hacer que todos los a o li esten asociados a una clase ol>li*2.(nombre de la clase de los li)>a.(nombre de la clase de los a)
+-para armar una estructura grande por ejemplo ----> 
+header>nav>ul.(nombre clase de ul)>li.(nombre de clase de li)*3>a.(nombre de la clase de los a)
+
+*Entonces aprendimos que con con el > estamos diciendo que nos cree el elemento de la derecha en el de la izquierda
+*Con el . estamos especificando que queremos darle una clase a alguna etiqueta como puede ser a. li. etc....
+*Con el asterisco despues de un elemento lo repetira tantas veces como el digamos por ejemplo li*3
+*Con el $ estamos creando un auto incrementable
+*Con los {} dentro de una etiqueta por ejemplo a{Contenido $} * 3 -----> esta sentencia lo que haria seria crear varios a (las veces que
+se repitan en el *) donde el contenido se repetira pero autoincrementandose con el $
