@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enlzando CSS</title>
+    <link rel="stylesheet" href="TiposDeSelectores.css">
+    <!-- rel="stylesheet porque esta queriendo decir que usaremos este link para darle stilo a este archivo HTML, es decri para 
+        especificar la relacion que tiene styles.css con este archivo" -->
+</head>
+<body>
+    <h1>Selectores</h1>
+    <p>Hay 3 tipos de formas de modificar las propiedades de un elemento Html con CSS, estas son aplicandole estilos en linea 
+    a un elemento, esto quiere decir que lo que hacemos es agregarle el atributo Sytle="" a un elemento en una sola linea, por ejemplo 
+    <p style="color: blue;">Texto 1</p> tambien podemos darle mas de un estilo sepandolos por ; <p style="color: blue;font-size: 20px;">Texto 2 </p> Igualmente esto es una mala proctica ya que no puedo estar mezclando Html, javascript y css en un mismo archivo
+    debo tener cada lenguaje en una seccion especifica, para que si quiero modificar algo ya sepa donde ir
+    </p>
+    <h2>Para solucionar esto se utiliza lo que seria la etiqueta style, que igualmente no es la forma optima de hacerlo</h2>
+    <style>
+        /* Aqui estoy diciendo que todos los p deberan cumplir con estas propiedades o estilos, pero como vemos lo que definimos como
+        estilo en una sola linea tiene mas priooridad que definirlo de esta forma*/
+        p{
+            color: black;
+        }
+    </style>
+    <p>La forma mas optima de hacerlo es teniendo los archivos en formas separadas, y vincularlo con el archivo html atravez de la 
+    etiqueta link, que linkea una hoja de estilos, y esta se suele poner en el head
+    </p>
+    <BR></BR>
+    <h2>Ingredientes de Cocina</h2>
+    <ul>
+        <li class="Ingredientefaltante">Harina</li>
+        <li>Aceite</li>
+        <li>Leche</li>
+        <li class="Ingredientefaltante">Sal</li>
+        <li id="IngredienteSecreto">Huevo</li>
+    </ul>
+
+<!-- La etiqueta span sirve para seleccionar algo muy puntual por ejemplo si queremos darle propiedad o color a una sola palabra 
+en especifico hariamos  <li>esto es <span>Harina</span> </li>  y si le damos la propiedad css a span se nos cambiaria el color solo
+de la palabra harina-->
+
+<!-- Para tomar un elemento en especifico y modificarlo existe algo llamado clases, que es darle un nombre en especifico a cada elemento
+y poder modificarlo por separado, el nombre de la clase debe ser memotecnico -->
+
+</body>
+</html>

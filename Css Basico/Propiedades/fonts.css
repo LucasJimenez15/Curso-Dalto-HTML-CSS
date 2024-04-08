@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Lucas Jimenez";
+    src: url("Fonts/Roboto_Mono/static/RobotoMono-ExtraLight.ttf") format("truetype");
+    font-weight: 100;
+
+}
+
+@font-face {
+    font-family: "Lucas Jimenez";
+    src: url("Fonts/Roboto_Mono/static/RobotoMono-Regular.ttf")
+    format("truetype");
+    font-weight: 500;
+
+}
+
+@font-face {
+    font-family: "Lucas Jimenez";
+    src: url("Fonts/Roboto_Mono/static/RobotoMono-Bold.ttf")
+    format("truetype");
+    font-weight: 900;
+
+}
+
+/* para crear una tipologia nueva ponemos @font y automaticamente nos sale el emmet correspodniete a esta estructura.
+Una vez que se abra veremmos font-family: alli ira el nombre de la tipologia a crear */

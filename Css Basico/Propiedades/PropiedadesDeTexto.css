@@ -1,0 +1,47 @@
+p{
+    color: orange;
+    /*font-family: 'Kode Mono';*/
+    font-family: 'Lucas Jimenez';
+    font-size: 18px;
+    font-weight: 900;
+    font-style:italic;
+    text-align:center;
+    line-height: 1.3;
+    /*letter-spacing: 10px;*/
+    /*text-transform:uppercase;*/
+}
+
+h1{
+    text-align: center;
+}
+
+span{
+    text-decoration: line-through;
+    color: aqua;
+}
+
+/* No en todos los navegadores acceptan el mismo red como color por lo tanto en vez de escribir color se suele usar hexadeciamles y demas
+para darle un color fijo o absoluto en todos los navegadores*/
+
+/* Font-family  muestra todas las tipograficas que existen, donde las que tienen mas de una palabra van dento de commilas simples ''
+podemos tambien separar por comas las tipografias y si no carga una se carga la segunda que pusimos*/
+
+/* Luego tenemos el font-size que es basicamente el tamaño del texto que por defecto viene de 16px */
+
+/* font-wright lo que hace es medir la anchura de la tipografia, font-weight:bold (es como ponerlo en 700) pone el texto en negrita y bolder lo que hace es subirle 100 a la anchura digamos si estabamos en 600 con bolder le sube 100, va del 100 al 900 mienteras mas grande sea el numero que elgimos mas gruesa sera la letra del texto*/
+
+/*si queremos resaltar una palabra en un texto utilizamos la etiqueta <strong></strong> ya que esto sirve para que la pagina
+sea mas reconocida por el navegador*/
+
+/* font-style italic nos pone la letra en cursiva, la inclina un poco lo mismo que oblique*/
+
+/* text-align lo que hace es alinear texto dentro de su contenedor, si el texto es del mismo tamaño que el contenedor no tendria sentido utilizar esta propiedad, esto lo usamos cuando el texto es mas chico que el contenedor que lo contiene, el text-align: justify lo que hace intentar hacer llegar a todos los elementos o lieas a el final del contenedor atravez de espacios */
+
+/* text-decoration:underline lo subraya al texto, text-decoration:overline lo subraya por arriba, text-decoration:line-through hace que se tache el texto con una linea, se pueden poner ambas de estas juntas sin poner la coma es decir asi text-decoration:underline overline;
+a las etiquetas de tipo link como a se le puede sacar el subrayado que traen por defecto con text-decoration:none; */
+
+/*  line-height: define el espaciado de la letra, va desde 1 hasta el valor que queramos, algunos ejemplos line-height:1 , line-height:2, line-height: 2.5, line-height:5.5 */
+
+/* letter-spacing: define el espaciado pero entre letras, por ejemplo letter-spacing:2px, letter-spacing:10px*/
+
+/* text-transform:uppercase; hace que todo el texto se convierta en mayuscula, text-transform:lowercase; en minuscula, text-transform:capitalize pone el empiezo de cada parabra del texto en mayuscula */

@@ -1,0 +1,43 @@
+h1{
+    color:brown;
+    font-size: 35px;
+}
+
+/* h1 seria el selector, es el elemento o conjunto de elementos que queremos modificar, la forma mas tradicional es por el nombre del 
+elemento, las llaves {} indican el bloque de declaraciones CSS, color y font-size serian las propiedades que deseo modificar del ele
+mento, y luego le damos el valor como lo es brown y 35px respectivamente */
+
+h2{
+    color: brown;
+    font-size: 20px;
+}
+
+/* Existen varias formas de poner los selectores, las diferentes formas de seleccionar uno o varios elementos
+
+*La primera es la llamada selector por elemento que es la que vemos arriba es decir esta
+h1{
+    color:brown;
+    font-size: 35px;
+}
+Este selector lo que hace es buscar ese elemento html con ese nombre y modificarlo, es decir que se modiuficarian  todos los p que exis
+ten como elementos en mi archivo HTML.
+
+La otra es la siguiente ----->
+ */
+
+.Ingredientefaltante{
+color: blueviolet;
+}
+/* Aqui lo que hacemos es modificar las propiedades de todos los elementos con la clase faltante, si no le pondriamos el punto modific
+ aria a todas las etiquetas llamadas faltantes */
+
+
+/* Otra forma de seleccionar elementos es atravez de las IDS, es un selector que se puede dar a un elemnto en toda la pagina, este 
+elemento que seleccionamos debe ser clave, se utiliza el # para el id, no es buena practica poner mas de un elemento
+con una misma ID, es decir el ID lo que hace es reconocer unicamente a ese elemento con esa ID y no puede haber otro---->> */
+
+#IngredienteSecreto {
+    color: chocolate;
+}
+
+/* Es decir para las clases podemos tenemos muchos elementos, pero la ID a un elemento y no puede haber otro con la misma ID */
